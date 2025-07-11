@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-        <meta charset="UTF-8">
-        <title>Projects | Project Website</title>
 
-        <link rel="stylesheet" href="/css/style.css">
-
-        
+{{ define "head" }}
 <link rel="stylesheet" href="/css/projects.css">
+{{ end }}
 
-    </head>
-
-    <body>
-        <header>
-            <h1><a href="/">Home</a></h1>
-            <nav>
-                <a href="/projects/">Projects</a>
-                <a href="/resume/">Résumé</a>
-            </nav>
-        </header>
-
-        <main>
-            
+{{ define "main" }}
 <h2>Cool Stuff</h2>
 <div class="projects-grid">
     <a href="/projects/mlengine" class="project-link">
@@ -102,13 +84,4 @@
         </div>
     </a>
 </div>
-
-        </main>
-
-        <footer>
-    <p>&copy; 2025 Joseph Soroka. All rights reserved.</p>
-</footer>
-
-        
-    </body>
-</html>
+{{ end }}

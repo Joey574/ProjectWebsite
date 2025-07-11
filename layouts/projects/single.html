@@ -1,0 +1,21 @@
+{{ define "head" }}
+<link rel="stylesheet" href="/static/css/mermaid.css">
+{{ end }}
+
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    <div>
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+    {{ if .Params.mermaid }}
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+        <script>
+            mermaid.initialize({ startOnLoad: true, theme: "dark" });
+        </script>
+    {{ end }}
+{{ end }}

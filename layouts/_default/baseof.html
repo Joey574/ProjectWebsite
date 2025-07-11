@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
         <meta charset="UTF-8">
-        <title>Résumé | Project Website</title>
+        <title>{{ .Title }} | Project Website</title>
 
         <link rel="stylesheet" href="/css/style.css">
 
-        
+        {{ block "head" .}}{{ end }}
     </head>
 
     <body>
@@ -19,15 +19,11 @@
         </header>
 
         <main>
-            
-<iframe src="/docs/resume.pdf"></iframe>
-
+            {{ block "main" .}}{{end}}
         </main>
 
-        <footer>
-    <p>&copy; 2025 Joseph Soroka. All rights reserved.</p>
-</footer>
+        {{ partial "footer.html" . }}
 
-        
+        {{ block "scripts" . }}{{ end }}
     </body>
 </html>
