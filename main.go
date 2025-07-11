@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
+	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("public/static"))))
 	http.Handle("/", http.FileServer(http.Dir("public")))
 
 	log.Println("Listening on port 8080")
