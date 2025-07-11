@@ -49,6 +49,12 @@ footer {
     color: grey;
 }
 
+iframe {
+    width: 100%;
+    height: 90vh;
+    border: none;
+}
+
 header h1 a:hover {
     transform: translateY(-1px);
 }
