@@ -2,25 +2,27 @@
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
     margin-top: 2rem;
 }
 
 .project-card {
-    background-color: darkslategrey;
     color: black;
+    background-color: darkslategrey;
+
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 20px rgba(62, 9, 194, 0.1);
+
     overflow: hidden;
     transition: transform 0.2s, box-shadow 0.2s;
+
+    margin-bottom: 1rem;
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(62, 9, 194, 0.5);
-}
 
 .project-link {
+    display: block;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -38,17 +40,21 @@
 }
 
 .project-card p {
-    margin: 0 1rem 1rem 1rem;
+    margin: 1rem;
     color: black;
 }
 
 .project-card ul {
-    margin: 1rem;
     padding: 0;
     list-style: none;
 }
 
 .project-card ul li {
-    margin-bottom: 0.5rem;
+    margin-left: 1rem;
     font-size: 0.95rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(62, 9, 194, 0.5);
 }
