@@ -16,4 +16,4 @@ Probably the coolest part about this (at least to me) is that it's all ran on a 
 shader, written in hlsl. Now while this is probably an obvious solution to this problem for many, this project 
 was the first time I truly got into GPU programming. As such it went through many iterations as I improved as 
 a coder and I got to watch as my creation got faster and faster, able to simulate around 151 MILLION points at 
-40 fps on my 2060 Super, a graphics card that came out in 2019.
+50 fps on my 2060 Super, a graphics card that came out in 2019.

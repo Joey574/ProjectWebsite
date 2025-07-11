@@ -48,3 +48,7 @@ flowchart TD
 - **Activation**: Implements activation functions and their derivatives.</li>
 - **LossMetric**: Responsible for scoring and loss functions.</li>
 - **Optimizer**: Manages parameter updates and implements various optimization algorithms.</li>
+
+Using these models we can generate some pretty impressive images as can be seen below
+
+![Uh oh!](/images/mandleimage.png)
