@@ -2,6 +2,7 @@ const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 const dpr = window.devicePixelRatio || 1;
 
+// scale canvas to make it look nice
 canvas.width  = canvas.clientWidth * dpr;
 canvas.height = canvas.clientHeight * dpr;
 ctx.scale(dpr, dpr);
