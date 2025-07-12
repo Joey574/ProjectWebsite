@@ -2,13 +2,12 @@
 <html lang="en">
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
-        <title>Lighthouse | Project Website</title>
+        <title>Contact | Project Website</title>
 
         <link rel="stylesheet" href="/css/style.css">
 
         
-<link rel="stylesheet" href="/css/mermaid.css">
-<link rel="stylesheet" href="/css/projectarticle.css">
+<link rel="stylesheet" href="/css/contact.css">
 
     </head>
 
@@ -24,10 +23,25 @@
 
         <main>
             
-    <h1>Lighthouse</h1>
-    <div>
-        
+<div class="contact-container">
+    <h1>Contact Me</h1>
+    <form action="mailto:joeylsoroka@gmail.com" method="pose" enctype="text/plain">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <p>Or email directly at <a href="mailto:joeylsoroka@gmail.com">joeylsoroka@gmail.com</a></p>
     </div>
+</div>
 
         </main>
 
@@ -43,7 +57,5 @@
 
 
         
-    
-
     </body>
 </html>
