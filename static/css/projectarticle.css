@@ -6,3 +6,11 @@ h1 {
 h3 {
     margin-bottom: 0rem;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+}

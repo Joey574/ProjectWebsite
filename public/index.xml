@@ -12,7 +12,7 @@
       <link>http://localhost:1313/projects/conways/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/conways/</guid>
-      <description>&lt;p&gt;The famous Game of Life written in C# for Unity&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Contains not just Conways Game of Life but many other variations, things like highlife, and von neumann&#xA;neighborhood, which are decently well-known, and also has variations like infection, in which green cells&#xA;can infect white cells, causing them to spread rapidly, and a battle mode, where red and blue battle on even&#xA;footing, as well as my personal favorite, wireworld, a turring-complete electrical wire simulation, quite a&#xA;joy to watch.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/conways.gif&#34; alt=&#34;Uh Oh!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The famous Game of Life written in C# for Unity&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Contains not just Conways Game of Life but many other variations, things like highlife, and von neumann&#xA;neighborhood, which are decently well-known, and also has variations like infection, in which green cells&#xA;can infect white cells, causing them to spread rapidly, and a battle mode, where red and blue battle on even&#xA;footing, as well as my personal favorite, wireworld, a turring-complete electrical wire simulation, quite a&#xA;joy to watch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dive Computer</title>
@@ -40,20 +40,27 @@
       <link>http://localhost:1313/projects/mlengine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/mlengine/</guid>
-      <description>&lt;p&gt;MLEngine is a C++ command line tool for linux aimed to allow easy iteration on different neural network designs&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Written from scratch in C++, MLEngine is a Machine Learning framework that allows a user to implement all sorts of machine&#xA;learning concepts, currently does not support GPUs but bound to change one day. Highly optimized and customizable, a user&#xA;can define what dataset to train on, the name of the model, model dimensions, activations, weight initilization, loss, scoring,&#xA;and various other options that are used during training.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/mlengine.gif&#34; alt=&#34;Uh oh!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;MLEngine is a C++ command line tool for linux aimed to allow easy iteration on different neural network designs&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Written from scratch in C++, MLEngine is a Machine Learning framework that allows a user to implement all sorts of machine&#xA;learning concepts, currently does not support GPUs but bound to change one day. Highly optimized and customizable, a user&#xA;can define what dataset to train on, the name of the model, model dimensions, activations, weight initilization, loss, scoring,&#xA;and various other options that are used during training.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NBody Simulation</title>
       <link>http://localhost:1313/projects/nbodysim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/nbodysim/</guid>
-      <description>&lt;p&gt;Nbody Simulation is a real-time point simulation written in C++ and CUDA&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Simulates the gravitational effect different bodies would have on one another and displays them to the window using OpenGL. Can honestly generate&#xA;some pretty beautiful simulations, and while working on this project I found myself getting quite distracted just watching it, it can simulate many&#xA;thousands of points at a time and can even make use of CUDA to maintain a pretty good frame real-time.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/nbodysim.gif&#34; alt=&#34;Uh Oh!&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nbody Simulation is a real-time point simulation written in C++ and CUDA&lt;/p&gt;&#xA;&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&lt;p&gt;Simulates the gravitational effect different bodies would have on one another and displays them to the window using OpenGL. Can honestly generate&#xA;some pretty beautiful simulations, and while working on this project I found myself getting quite distracted just watching it, it can simulate many&#xA;thousands of points at a time and can even make use of CUDA to maintain a pretty good frame real-time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Recon Suite</title>
       <link>http://localhost:1313/projects/reconsuite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/reconsuite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snake</title>
+      <link>http://localhost:1313/games/snake/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/snake/</guid>
       <description></description>
     </item>
   </channel>

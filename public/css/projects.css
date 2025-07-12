@@ -17,6 +17,8 @@
     transition: transform 0.2s, box-shadow 0.2s;
 
     margin-bottom: 1rem;
+
+    max-width: 400px;
 }
 
 
@@ -37,6 +39,7 @@
     margin: 1rem;
     font-size: 1.5rem;
     color: black;
+    text-align: center;
 }
 
 .project-card p {

@@ -1,6 +1,7 @@
 ---
 title: "Conways Game of Life"
 ---
+![Uh Oh!](/images/conways.gif)
 
 The famous Game of Life written in C# for Unity
 

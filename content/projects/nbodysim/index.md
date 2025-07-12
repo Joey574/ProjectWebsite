@@ -2,6 +2,8 @@
 title: "NBody Simulation"
 ---
 
+![Uh Oh!](/images/nbodysim.gif)
+
 Nbody Simulation is a real-time point simulation written in C++ and CUDA
 
 ### Description

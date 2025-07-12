@@ -3,6 +3,8 @@ title: "MLEngine"
 mermaid: true
 ---
 
+![Uh oh!](/images/mlengine.gif)
+
 MLEngine is a C++ command line tool for linux aimed to allow easy iteration on different neural network designs
 
 ### Description

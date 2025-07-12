@@ -1,0 +1,18 @@
+{{ define "head" }}
+<link rel="stylesheet" href="/css/game.css">
+{{ end }}
+
+{{ define "main" }}
+    <h1>{{ .Title }}</h1>
+    <div class="canvas-container">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+{{ end }}
+
+{{ define "scripts" }}
+    {{ with .Params.scripts }}
+        {{ range . }}
+            <script src="/{{ . }}"></script>
+        {{ end }}
+    {{ end }}
+{{ end }}

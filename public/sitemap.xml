@@ -14,6 +14,8 @@
   </url><url>
     <loc>http://localhost:1313/projects/divecomputer/</loc>
   </url><url>
+    <loc>http://localhost:1313/games/</loc>
+  </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/lighthouse/</loc>
@@ -29,6 +31,8 @@
     <loc>http://localhost:1313/projects/reconsuite/</loc>
   </url><url>
     <loc>http://localhost:1313/resume/</loc>
+  </url><url>
+    <loc>http://localhost:1313/games/snake/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
