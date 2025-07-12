@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="/css/style.css">
 
         
+<link rel="stylesheet" href="/css/pfddisplay.css">
+
     </head>
 
     <body>
@@ -22,7 +24,28 @@
 
         <main>
             
-<iframe src="/docs/resume.pdf"></iframe>
+<div class="pdf-tabs">
+    <ul class="tab-list">
+        <li class="tab active" onclick="showPDF(0)">Résumé</li>
+        <li class="tab" onclick="showPDF(1)">Recommendations</li>
+    </ul>
+    <div clas="pdf-container">
+        <iframe src="/docs/resume.pdf" class="pdf-frame" style="display: block;"></iframe>
+        <iframe src="/docs/recommendation.pdf" class="pdf-frame" style="display: none;"></iframe>
+    </div>
+</div>
+
+<script>
+    function showPDF(index) {
+        const tabs = document.querySelectorAll(".tab");
+        const frames = document.querySelectorAll(".pdf-frame");
+
+        tabs.forEach((tab, i) => {
+            tab.classList.toggle("active", i === index);
+            frames[i].style.display = i === index ? "block" : "none";
+        });
+    }
+</script>
 
         </main>
 
