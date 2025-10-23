@@ -11,6 +11,7 @@ const scale = 20
 const rows = Math.floor(canvas.height / scale);
 const cols = Math.floor(canvas.width / scale);
 
+// initialize snake
 let snake = [];
 snake[0] = { x: Math.floor(cols/2), y: Math.floor(rows/2) };
 snake[1] = { x: Math.floor(cols/2)-1, y: Math.floor(rows/2) };
@@ -25,7 +26,7 @@ let score = 0;
 document.addEventListener("keydown", keyPress);
 
 function keyPress(e) {
-    // crazy how like every webpage game doesn't have this :(
+    // crazy how like every game webpage game doesn't have this :(
     if (["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key)) {
         e.preventDefault();
     }
