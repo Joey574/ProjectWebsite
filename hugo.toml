@@ -1,6 +1,6 @@
 baseURL = 'https://localhost/'
 languageCode = 'en-us'
-title = 'Project Website'
+title = 'Personal Website'
 
 [markup]
   [markup.goldmark]

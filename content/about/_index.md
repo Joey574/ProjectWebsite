@@ -2,10 +2,10 @@
 title: About
 ---
 
-Oct 23, 2025
+Oct 24, 2025
 
-I'm an 18, nearly 19 year old student, as of writing, and I'm pursuing a degree in Computer Science. I've been coding for quite some time now, 
-working on all sorts of varied projects, my favorite language has to be C++, simply because of its versatility
+As of writing I'm an 18, nearly 19 year old student, and I'm pursuing a degree in Computer Science. I've been coding for quite some time now, 
+and everyone seems to have a personal website nowadays, so I made mine to document my learning and showcase my achievments, and I hope you enjoy.
 
 # My Story
 
