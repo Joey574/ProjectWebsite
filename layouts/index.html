@@ -1,13 +1,21 @@
 {{ define "head" }}
-<link rel="preload" href="/images/mlengine.gif" as="image">
-<link rel="preload" href="/images/nbodysim.gif" as="image">
-<link rel="preload" href="/images/conways.gif" as="image">
-<link rel="preload" href="/images/mandleimage.png" as="image">
+
+    <!-- prefetch card gifs / images for projects  -->
+    {{ $images := readDir "static/images/project_cards" }}
+    {{ range $images}}
+        <link rel="prefetch" href="/images/project_cards/{{ .Name }}" as="image">
+    {{ end }}
+
+    <!-- prefetch card gifs / images for games  -->
+    {{ $images := readDir "static/images/game_cards" }}
+    {{ range $images}}
+        <link rel="prefetch" href="/images/game_cards/{{ .Name }}" as="image">
+    {{ end }}
 {{ end }}
 
 {{ define "main" }}
-<h2>Description</h2>
-<p>Personal website of mine to display and showcase different projects and accomplishments</p>
-<h2>About Me</h2>
-<p>Testing testing, 123</p>
+    <h2>Description</h2>
+    <p>Personal website of mine to display and showcase different projects and accomplishments</p>
+    <h2>About Me</h2>
+    <p>Testing testing, 123</p>
 {{ end }}
