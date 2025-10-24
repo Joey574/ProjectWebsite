@@ -18,8 +18,8 @@ snake[1] = { x: Math.floor(cols/2)-1, y: Math.floor(rows/2) };
 snake[2] = { x:  Math.floor(cols/2)-2, y: Math.floor(rows/2) };
 
 let food = getFoodPos();
-let dx = 1;
-let dy = 0;
+let lastd = [0, 0]
+let curd = [1, 0]
 
 let score = 0;
 
@@ -33,32 +33,39 @@ function keyPress(e) {
 
     switch (e.key) {
         case "ArrowUp":
-            if (dy === 0) { dy = -1; dx = 0; }
+            if (lastd[1] == 0) { curd = [0, -1] }
         break;
-        case "ArrowDown": 
-            if (dy == 0) { dy = 1; dx = 0; }
+        case "ArrowDown":
+            if (lastd[1] == 0) { curd = [0, 1] }
         break;
         case "ArrowLeft": 
-            if (dx == 0) { dx = -1; dy = 0; }
+            if (lastd[0] == 0) { curd = [-1, 0] }
         break;
         case "ArrowRight": 
-            if (dx == 0) { dx = 1; dy = 0; }
+            if (lastd[0] == 0) { curd = [1, 0] }
         break;
     }
 }
 
+// incredibly naive approach needs to be reworked in future
 function getFoodPos() {
-    return { 
+    pos = {
         x: Math.floor(Math.random()*(cols-1)), 
         y: Math.floor(Math.random()*(rows-1)) 
-    };
+    }
+    
+    if (snake.find((p) => p[0] == pos.x && p[1] == pos.y) == undefined) {
+        return pos;
+    }
+
+    return getFoodPos();       
 }
 
 function gameLoop() {
     // compute head location
     const head = { 
-        x: (snake[0].x+dx+cols) % cols,
-        y: (snake[0].y+dy+rows) % rows 
+        x: (snake[0].x+curd[0]+cols) % cols,
+        y: (snake[0].y+curd[1]+rows) % rows 
     };
 
     // check self collision
@@ -82,6 +89,7 @@ function gameLoop() {
     }
 
     draw();
+    lastd = curd
 }
 
 function draw() {
