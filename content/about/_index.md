@@ -2,11 +2,10 @@
 title: About
 ---
 
-Hi, I'm currently an 18 year old student pursuing a degree in Computer Science, Web Dev isn't my greatest strength so I hope you can excuse
-some problems with the website ;)
+Oct 23, 2025
 
-I've been coding for quite some time now, working on all sorts of varied projects, my favored language is certainly C++, but I've delved into
-many different languages over the years, including Asm, GoLang, JS, Java, Python, Lua, and a half dozen more I'll forget to mention.
+I'm an 18, nearly 19 year old student, as of writing, and I'm pursuing a degree in Computer Science. I've been coding for quite some time now, 
+working on all sorts of varied projects, my favorite language has to be C++, simply because of its versatility
 
 # My Story
 
