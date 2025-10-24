@@ -1,5 +1,11 @@
 {{ define "head" }}
-<link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/projects.css">
+
+    <!-- preload title card gifs / images -->
+    {{ $images := readDir "static/images/game_cards" }}
+    {{ range $images}}
+        <link rel="preload" href="/images/game_cards/{{ .Name }}" as="image">
+    {{ end }}
 {{ end }}
 
 {{ define "main" }}
